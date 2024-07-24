@@ -1,0 +1,67 @@
+body {
+    font-family: Verdana,  sans-serif; /* Семейство шрифтов */
+    font-size: 12px; /* Размер основного шрифта в <p></p>  */
+    background: url(https://bogatyr.club/uploads/posts/2023-03/1679415981_bogatyr-club-p-kosmos-serii-fon-oboi-1.jpg);
+    color: #00a2ff; /* Цвет основного текста */ 
+}
+h1 {
+    font-size: 30px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    text-align: center 
+}
+
+P {
+    color: #00ffff;
+    font-size: 24px;
+    text-align: left
+    
+}
+
+h2 {
+    color: #00ffff; /* Цвет заголовка */
+    font-size: 20px;
+    text-align: center 
+}
+
+h3 {
+    color: #0044ff; /* Цвет заголовка */
+    font-size: 24px;
+    text-align: center 
+    
+}
+
+li {
+
+    font-size: 16px;
+    text-align: center 
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+
+    25% {
+        color: rgb(0, 31, 204);
+      }
+    
+  
+    50% {
+      color: rgb(234, 0, 255);
+    }
+
+    75% {
+        color: rgb(255, 0, 234);
+      }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
+h3:hover {
+    animation: color-change 3s infinite;
+}
